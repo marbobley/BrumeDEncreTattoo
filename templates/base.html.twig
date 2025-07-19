@@ -19,8 +19,11 @@
 	<body>
 		<header>
 			{% block header %}
-				<nav>
-					<div class="topnav" id="myTopnav">
+				<nav class="topnav" id="myTopnav">
+					{#<div class="topnav-brand">
+						logo
+					</div>#}
+					<div class="topnav-link">
 						<a href="{{ sulu_content_root_path() }}" class="active">Accueil</a>
 						<a href="#news">PorteFolio</a>
 						<a href="#contact">Contact</a>
@@ -28,21 +31,10 @@
 							<i class="fa fa-bars"></i>
 						</a>
 					</div>
-					{#<ul>
-						{% for item in sulu_navigation_root_tree('main') %}
-							<li>
-								<a href="{{ sulu_content_path(item.url, item.webspaceKey) }}" title="{{ item.title }}">{{ item.title }}</a>
-							</li>
-						{% endfor %}
-					</ul>#}
-</nav>
+				</nav>
 			{% endblock %}
 		</header>
 
-		<form action="{{ path('sulu_search.website_search') }}" method="GET">
-			<input name="q" type="text" placeholder="Search"/>
-			<input type="submit" value="Go"/>
-		</form>
 
 		<main>
 			{% block content %}{% endblock %}
