@@ -27,17 +27,17 @@
 						<a href="#news">News</a>
 						<a href="#contact">Contact</a>
 						<a href="#about">About</a>
-						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<a id="myTopnavButton" href="javascript:void(0);" class="icon">
 							<i class="fa fa-bars"></i>
 						</a>
 					</div>
 					{#<ul>
-						{% for item in sulu_navigation_root_tree('main') %}
-							<li>
-								<a href="{{ sulu_content_path(item.url, item.webspaceKey) }}" title="{{ item.title }}">{{ item.title }}</a>
-							</li>
-						{% endfor %}
-					</ul>#}
+																					{% for item in sulu_navigation_root_tree('main') %}
+																						<li>
+																							<a href="{{ sulu_content_path(item.url, item.webspaceKey) }}" title="{{ item.title }}">{{ item.title }}</a>
+																						</li>
+																					{% endfor %}
+																				</ul>#}
 				</nav>
 			{% endblock %}
 		</header>
@@ -58,8 +58,11 @@
 					SULU</p>
 			{% endblock %}
 		</footer>
+		{% block javascripts %}
+			{% block importmap %}
+				{{ importmap('app') }}
+			{% endblock %}
+		{% endblock %}
 
-		{% block javascripts %}{% endblock %}
-            {% block importmap %}{{ importmap('app') }}{% endblock %}
 	</body>
 </html>
