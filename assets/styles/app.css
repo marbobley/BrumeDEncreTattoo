@@ -106,7 +106,7 @@ body {
   }
 
   .topnav.responsive a.icon {
-    position: fixed;
+    position: relative;
     right: 0;
     top: 0;
   }
@@ -114,7 +114,6 @@ body {
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
 
   }
 
