@@ -6,7 +6,8 @@
 }
 
 header {
-  padding-bottom: 4rem;
+  padding-bottom: 45px;
+  height: 50px;
 }
 
 body {
@@ -15,6 +16,13 @@ body {
 
 }
 
+.header-section {
+  background-color: #f6f6f6;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: auto;
+}
 
 .topnav {
   overflow: hidden;
@@ -23,15 +31,29 @@ body {
   left: 0;
   top: 0;
   width: 100%;
+  height: 7rem;
+  align-content: center;
+}
+
+.topnav-brand {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 30px;
+  height: 100%;
+  align-content: center;
+  
+}
+
+.topnav-img-brand {
+  width: 78px;
 }
 
 .topnav-link {
   float: right;
+  align-content: center;
+  height: 100%;
 }
 
-.topnav-brand {
-  float: left;
-}
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -84,7 +106,6 @@ body {
     position: fixed;
     right: 0;
     top: 0;
-    z-index: 10;
   }
 
   .topnav.responsive a {
@@ -93,5 +114,4 @@ body {
     text-align: left;
   }
 
-  .topnav-link {}
 }
