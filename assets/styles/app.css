@@ -26,10 +26,12 @@ body {
 }
 
 .topnav-link {
-  float:right;
+  float: right;
 }
 
-.topnav-brand {}
+.topnav-brand {
+  float: left;
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -91,7 +93,5 @@ body {
     text-align: left;
   }
 
-  .topnav-link{
-
-  }
+  .topnav-link {}
 }
