@@ -16,13 +16,14 @@ body {
 
 }
 
+footer{
+  text-align: center;
+
+}
+
 .header-section {
   background-color: #f6f6f6;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  height: auto;
-  z-index: -1;
+  width: 99%;
 }
 
 .topnav {
