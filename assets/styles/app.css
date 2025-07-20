@@ -121,6 +121,31 @@ footer {
 
 .header-section .right-content {}
 
+.button-contact{
+  all:initial;
+  background-color: var(--primary-color);
+  font-size: xx-large;
+  cursor: pointer;
+  color: var(--section-bg-color);
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.icon-next{
+  background-color: white;
+  border-radius: 45px;
+  font-size: xx-large;
+  color: var(--primary-color);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.div-button{
+  text-align: center;
+}
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -176,6 +201,10 @@ footer {
 
   .right-content p{
     text-align: justify;
+  }
+
+  .div-button{
+    padding-top: 30px;
   }
 
 }

@@ -17,11 +17,15 @@
 					<p>Tous les projets que je réalises sont des pièces personnalisées, allant de la fine line à la dentelle en passant par l’aquarelle, le floral, le trash et bien d’autres, je m’adapte à tous les styles.
 					</p>
 				</div>
-				<button>contact</button>
+				<div class="div-button">
+					<a href="/" class="button-contact">Contact
+						<span class="icon-next">></span>
+					</a>
+				</div>
 			</div>
 		</div>
-	<h1>{{ content.title }}</h1>
+		<h1>{{ content.title }}</h1>
 
-	{{ content.article|raw }}
+		{{ content.article|raw }}
 	</section>
 {% endblock %}
