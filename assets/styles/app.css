@@ -16,14 +16,9 @@ body {
 
 }
 
-footer{
+footer {
   text-align: center;
 
-}
-
-.header-section {
-  background-color: #f6f6f6;
-  width: 99%;
 }
 
 .topnav {
@@ -43,7 +38,7 @@ footer{
   padding-left: 30px;
   height: 100%;
   align-content: center;
-  
+
 }
 
 .topnav-img-brand {
@@ -85,6 +80,48 @@ footer{
 .topnav .icon {
   display: none;
 }
+
+.section-home {
+  font-size: xx-large;
+  background-color: #f6f6f6;  
+  padding-top: 20px;
+}
+
+.header-section {
+  width: 99%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.header-home-h1 {
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--header-bg-color);
+  font-style: italic;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-right: 10rem;
+  padding-left: 1rem;
+}
+
+.header-section .left-content {}
+
+.left-content {
+  padding: 10rem;
+}
+.left-img{
+  box-shadow: 
+    0 0 2em black;
+  width: 700px;
+}
+
+.header-section .right-content {
+}
+
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {

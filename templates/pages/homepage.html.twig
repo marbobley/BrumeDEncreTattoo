@@ -1,26 +1,27 @@
 {% extends 'base.html.twig' %}
 
 {% block content %}
-	<section class="header-section">
-		<div>
-			<img src="{{ asset('images/logo-transparent-5-100x100.png') }}"/>
-		</div>
-		<div>
-			content right
-			<h1>Brume d’encre Tattoo</h1>
-			<h2>Bienvenue dans mon univers : Brume d’encre tattoo</h2>
-			<div>
-				<p>Moi c’est Mona de Brume d’encre tattoo, tatoueuse depuis plus de 10 ans, et installée sur Aniane, près de Montpellier, en 2018.</p>
-				<p>Je vous reçois dans mon shop privé uniquement sur rendez-vous, ce qui me permet de prendre le temps nécessaire pour que chaque tatouage soit pour vous une expérience unique.</p>
-				<p>Mon approche est douce et à l’écoute, que ce soit votre premier tatouage ou une nouvelle pièce à votre collection, nous dessinerons ensemble une œuvre qui vous ressemble faite avec soin et précision.
-				</p>
-				<p>Tous les projets que je réalises sont des pièces personnalisées, allant de la fine line à la dentelle en passant par l’aquarelle, le floral, le trash et bien d’autres, je m’adapte à tous les styles.
-				</p>
+	<section class="section-home">
+		<h1 class="header-home-h1">Brume d’encre Tattoo</h1>
+		<div class="header-section">
+			<div class="left-content">
+				<img class="left-img" src="{{ asset('images/logo-1024x1024.jpg') }}"/>
 			</div>
-            <button>contact</button>
+			<div class="right-content">
+				<h2>Bienvenue dans mon univers : Brume d’encre tattoo</h2>
+				<div>
+					<p>Moi c’est Mona de Brume d’encre tattoo, tatoueuse depuis plus de 10 ans, et installée sur Aniane, près de Montpellier, en 2018.</p>
+					<p>Je vous reçois dans mon shop privé uniquement sur rendez-vous, ce qui me permet de prendre le temps nécessaire pour que chaque tatouage soit pour vous une expérience unique.</p>
+					<p>Mon approche est douce et à l’écoute, que ce soit votre premier tatouage ou une nouvelle pièce à votre collection, nous dessinerons ensemble une œuvre qui vous ressemble faite avec soin et précision.
+					</p>
+					<p>Tous les projets que je réalises sont des pièces personnalisées, allant de la fine line à la dentelle en passant par l’aquarelle, le floral, le trash et bien d’autres, je m’adapte à tous les styles.
+					</p>
+				</div>
+				<button>contact</button>
+			</div>
 		</div>
-		<h1>{{ content.title }}</h1>
-
-		{{ content.article|raw }}
 	</section>
+	<h1>{{ content.title }}</h1>
+
+	{{ content.article|raw }}
 {% endblock %}
