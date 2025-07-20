@@ -83,7 +83,7 @@ footer {
 
 .section-home {
   font-size: xx-large;
-  background-color: #f6f6f6;  
+  background-color: #f6f6f6;
   padding-top: 20px;
 }
 
@@ -112,14 +112,14 @@ footer {
 .left-content {
   padding: 10rem;
 }
-.shadow-img{
-  box-shadow: 
+
+.shadow-img {
+  box-shadow:
     0 0 2em black;
   width: 700px;
 }
 
-.header-section .right-content {
-}
+.header-section .right-content {}
 
 
 
@@ -134,6 +134,50 @@ footer {
     float: right;
     display: block;
   }
+
+  .section-home {
+    width: 96%;
+  }
+
+  .section-home h1 {
+    font-size: large;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: none;
+  }
+
+  .header-section {
+    width: 99%;
+    display: block;
+  }
+
+  .left-content {
+    padding: 0;
+  }
+
+  .left-content img {
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+
+  .right-content {
+    font-size: medium;
+  }
+
+  .right-content h2 {
+    text-align: center;
+  }
+
+  .right-content p{
+    text-align: justify;
+  }
+
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
