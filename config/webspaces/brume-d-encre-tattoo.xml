@@ -15,6 +15,7 @@
     <default-templates>
         <default-template type="page">default</default-template>
         <default-template type="home">homepage</default-template>
+        <default-template type="home">homepage-content</default-template>
     </default-templates>
 
     <!-- See: https://docs.sulu.io/en/latest/book/webspaces.html#excluded-templates-optional
