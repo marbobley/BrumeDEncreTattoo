@@ -60,8 +60,8 @@
         </property>
         <property name="carousel" type="media_selection">
             <meta>
-                <title lang="en">Logos</title>
-                <title lang="fr">Logos</title>
+                <title lang="en">Carousel</title>
+                <title lang="fr">Caroussel</title>
             </meta>
         </property>
 
