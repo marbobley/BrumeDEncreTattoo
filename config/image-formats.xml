@@ -35,4 +35,11 @@
         </meta>
         <scale x="1024"/>
     </format>
+    <format key="400x">
+        <meta>
+            <title lang="en">img carouselle 400</title>
+            <title lang="de">img carouselle 400</title>
+        </meta>
+        <scale x="400"/>
+    </format>
 </formats>

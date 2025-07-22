@@ -23,6 +23,8 @@
 	<span class="separator">_-_-_-_--_-_</span>
 
 	<section class="section-home">
-		FUTUR CAROUSSELLE D IMAGE
+		{% for image in content.carousel %}
+			<img src="{{ image.thumbnails['400x'] }}" alt="{{ image.title }}" title="{{ image.description|default(image.title) }}">
+		{% endfor %}
 	</section>
 {% endblock %}
