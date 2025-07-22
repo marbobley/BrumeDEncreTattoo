@@ -5,7 +5,7 @@
 		<h1 class="header-home-h1">{{ content.title }}</h1>
 		<div class="header-section">
 			<div class="left-content">
-				<img class="shadow-img" src="{{ asset('images/logo-1024x1024.jpg') }}"/>
+				<img class="shadow-img" src="{{ content.logo.url }}">
 			</div>
 			<div class="right-content">
 				<h2>{{ content.subtitle |raw}}</h2>
@@ -18,11 +18,11 @@
 					</a>
 				</div>
 			</div>
-		</div>		
+		</div>
 	</section>
 	<span class="separator">_-_-_-_--_-_</span>
 
-	<section class="section-home">	
+	<section class="section-home">
 		FUTUR CAROUSSELLE D IMAGE
 	</section>
 {% endblock %}
