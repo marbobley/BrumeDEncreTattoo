@@ -12,6 +12,7 @@
     <meta>
         <title lang="en">Homepage</title>
         <title lang="de">Startseite</title>
+        <title lang="fr">Accueil</title>
     </meta>
 
     <properties>
@@ -19,6 +20,7 @@
             <meta>
                 <title lang="en">Title</title>
                 <title lang="de">Titel</title>
+                <title lang="fr">Titre</title>
             </meta>
             <params>
                 <param name="headline" value="true" />
@@ -29,6 +31,7 @@
             <meta>
                 <title lang="en">Resourcelocator</title>
                 <title lang="de">Adresse</title>
+                <title lang="fr">URL</title>
             </meta>
 
             <tag name="sulu.rlp" />
@@ -38,18 +41,27 @@
             <meta>
                 <title lang="en">sustitle</title>
                 <title lang="de">subArtikel</title>
+                <title lang="fr">Sous titre</title>
             </meta>
         </property>
+
         <property name="article" type="text_editor">
             <meta>
                 <title lang="en">Article</title>
                 <title lang="de">Artikel</title>
+                <title lang="fr">Contenu</title>
             </meta>
         </property>
         <property name="logo" type="single_media_selection">
             <meta>
-                <title lang="en">Document</title>
+                <title lang="en">Logo</title>
                 <title lang="fr">Logo</title>
+            </meta>
+        </property>
+        <property name="carousel" type="media_selection">
+            <meta>
+                <title lang="en">Logos</title>
+                <title lang="fr">Logos</title>
             </meta>
         </property>
 

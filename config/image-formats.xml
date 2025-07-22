@@ -21,4 +21,18 @@
 
     <img src="{{ image.thumbnails['300x'] }}" alt="{{ image.title }}" title="{{ image.description|default(image.title) }}">
     -->
+    <format key="300x">
+        <meta>
+            <title lang="en">section logo left 300</title>
+            <title lang="de">logo section left 300</title>
+        </meta>
+        <scale x="300"/>
+    </format>
+    <format key="1024x">
+        <meta>
+            <title lang="en">section logo left 1024</title>
+            <title lang="de">logo section left 1024</title>
+        </meta>
+        <scale x="1024"/>
+    </format>
 </formats>
