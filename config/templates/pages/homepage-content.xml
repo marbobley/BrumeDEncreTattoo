@@ -5,7 +5,7 @@
 
     <key>homepage-content</key>
 
-    <view>pages/homepage</view>
+    <view>pages/homepage-content</view>
     <controller>Sulu\Bundle\WebsiteBundle\Controller\DefaultController::indexAction</controller>
     <cacheLifetime>86400</cacheLifetime>
 
@@ -34,6 +34,12 @@
             <tag name="sulu.rlp"/>
         </property>
 
+        <property name="subtitle" type="text_editor">
+            <meta>
+                <title lang="en">sustitle</title>
+                <title lang="de">subArtikel</title>
+            </meta>
+        </property>
         <property name="article" type="text_editor">
             <meta>
                 <title lang="en">Article</title>

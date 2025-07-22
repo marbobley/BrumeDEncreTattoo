@@ -1,4 +1,3 @@
-
 .section-home {
   font-size: xx-large;
   background-color: #f6f6f6;
@@ -39,8 +38,8 @@
 
 .header-section .right-content {}
 
-.button-contact{
-  all:initial;
+.button-contact {
+  all: initial;
   background-color: var(--primary-color);
   font-size: xx-large;
   cursor: pointer;
@@ -52,7 +51,7 @@
   text-align: center;
 }
 
-.icon-next{
+.icon-next {
   background-color: white;
   border-radius: 45px;
   font-size: xx-large;
@@ -61,10 +60,16 @@
   padding-right: 30px;
 }
 
-.div-button{
+.div-button {
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
 }
 
+.div-content {
+  font-size: 25px;
+  margin-right: 100px;
+}
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -109,11 +114,16 @@
     color: var(--section-bg-color);
   }
 
-  .right-content p{
+  .right-content p {}
+
+  .div-content {
+    font-size: 20px;
+    margin-right: 0;
     text-align: justify;
+    margin:3px;
   }
 
-  .div-button{
+  .div-button {
     padding-top: 30px;
   }
 
