@@ -1,6 +1,7 @@
 @import url('navbar.css');
 @import url('variables.css');
 @import url('section-home.css');
+@import url('carousel.css');
 
 header {
   padding-bottom: 54px;
