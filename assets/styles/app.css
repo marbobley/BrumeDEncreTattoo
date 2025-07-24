@@ -13,8 +13,38 @@ header {
   background-color: var(--main-bg-color);
 }
 
+main {
+  margin-bottom: 200px;
+}
+
 footer {
   text-align: center;
   background-color: var(--footer-bg-color);
   color: var(--header-bg-color);
+}
+
+.div-social {
+  padding-top: 25px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.div-social-icons svg {
+  margin: 25px;
+}
+
+
+.div-social-icons a {
+  all: unset;
+}
+
+.div-social-icons a:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    padding-bottom: 100px;
+    height: 50px;
+  }
 }
