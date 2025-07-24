@@ -36,7 +36,9 @@
   width: 700px;
 }
 
-.header-section .right-content {}
+.header-section .right-content {
+  padding-top: 150px;
+}
 
 .button-contact {
   all: initial;

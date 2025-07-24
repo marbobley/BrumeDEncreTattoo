@@ -8,11 +8,13 @@ header {
   height: 50px;
 }
 
-body {
-  background-color: var(--main-bg-color);
+.body {
   width: 100%;
+  background-color: var(--main-bg-color);
 }
 
 footer {
   text-align: center;
+  background-color: var(--footer-bg-color);
+  color: var(--header-bg-color);
 }
