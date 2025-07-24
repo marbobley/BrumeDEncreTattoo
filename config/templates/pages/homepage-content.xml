@@ -64,6 +64,15 @@
                 <title lang="fr">Caroussel</title>
             </meta>
         </property>
+        <property name="footer_social_media" type="snippet_selection">
+            <meta>
+                <title lang="en">Footer Social Media</title>
+                <title lang="fr">Footer Social Media</title>
+            </meta>
+            <params>
+                <param name="default" value="social_media" />
+            </params>
+        </property>
 
     </properties>
 </template>
