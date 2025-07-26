@@ -37,31 +37,17 @@
             <tag name="sulu.rlp" />
         </property>
 
-        <property name="subtitle" type="text_editor">
-            <meta>
-                <title lang="en">sustitle</title>
-                <title lang="de">subArtikel</title>
-                <title lang="fr">Sous titre</title>
-            </meta>
-        </property>
-
         <property name="article" type="text_editor">
             <meta>
+                <title lang="fr">Article</title>
                 <title lang="en">Article</title>
-                <title lang="de">Artikel</title>
-                <title lang="fr">Contenu</title>
             </meta>
         </property>
-        <property name="logo" type="single_media_selection">
+        
+        <property name="list_img" type="media_selection">
             <meta>
-                <title lang="en">Logo</title>
-                <title lang="fr">Logo</title>
-            </meta>
-        </property>
-        <property name="carousel" type="media_selection">
-            <meta>
-                <title lang="en">Carousel</title>
-                <title lang="fr">Caroussel</title>
+                <title lang="en">Liste d'images</title>
+                <title lang="fr">Images list</title>
             </meta>
         </property>
     </properties>
