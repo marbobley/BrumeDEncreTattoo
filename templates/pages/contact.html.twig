@@ -1,16 +1,19 @@
 {% extends 'base.html.twig' %}
 
 {% block content %}
-	<section class="section-portefolio">
-		<h1 class="header-portefolio-h1">{{ content.title }}</h1>
+	<section class="header-section-contact">
+		<h1>{{ content.title }}</h1>
+		<h2>{{ content.subtitle }}</h2>
 		<div>
 			{{ content.article | raw }}
 		</div>
-		<div class="div-imgs">
-			Liste d'images
-			{% for image in content.list_img %}
-				<img src="{{ image.thumbnails['400x'] }}" alt="{{ image.title }}" title="{{ image.description|default(image.title) }}" class="d-block w-100">
-			{% endfor %}
+	</section>
+	<section class="section-map">
+		<h3>{{ content.adresse }}</h3>
+	</section>
+	<section class="section-take-contact">
+		<div>
+			{{ content.takeContact | raw }}
 		</div>
 	</section>
 {% endblock %}

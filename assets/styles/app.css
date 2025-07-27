@@ -4,6 +4,7 @@
 @import url('section-home.css');
 @import url('carousel.css');
 @import url('portefolio.css');
+@import url('contact.css');
 
 header {
   padding-bottom: 54px;
