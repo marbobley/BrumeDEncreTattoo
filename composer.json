@@ -52,6 +52,7 @@
         "symfony/runtime": "^7.3",
         "symfony/security-bundle": "^7.3",
         "symfony/twig-bundle": "^7.3",
+        "symfony/ux-leaflet-map": "^2.27",
         "symfony/ux-twig-component": "^2.27",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0"
