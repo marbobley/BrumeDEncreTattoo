@@ -1,4 +1,46 @@
-.section-portefolio{
-    background-color: yellow;
+.section-portefolio {
     margin: 150px;
+    background-color: var(--header-bg-color);
+    padding: 20px;
+}
+
+.div-imgs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-imgs img {
+    margin: 15px;
+    max-width: 200px;
+}
+
+.contact-portofolio {
+    margin-top: 50px;
+    text-align: center;
+    font-size: larger;
+}
+
+.contact-portofolio a {
+    all: initial;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--section-bg-color);
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .section-portefolio {
+        margin: 0;
+        margin-top:75px;
+        text-align: center;
+
+    }
+
+    .div-imgs img {
+        align-self: center;
+        max-width: 300px;
+    }
 }

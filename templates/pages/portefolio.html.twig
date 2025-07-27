@@ -7,10 +7,12 @@
 			{{ content.article | raw }}
 		</div>
 		<div class="div-imgs">
-			Liste d'images
 			{% for image in content.list_img %}
 				<img src="{{ image.thumbnails['400x'] }}" alt="{{ image.title }}" title="{{ image.description|default(image.title) }}" class="d-block w-100">
 			{% endfor %}
 		</div>
+		<div class="contact-portofolio">
+			<a href="/contact">Prendre rendez-vous</a>
+		<div>
 	</section>
 {% endblock %}
