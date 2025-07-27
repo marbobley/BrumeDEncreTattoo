@@ -8,9 +8,8 @@
 			{{ content.article | raw }}
 		</div>
 	</section>
-	{{ component('Alert') }}
 	<section class="section-map">
-		<h3>{{ content.adresse }}</h3>
+		{{ component('LeafletMap') }}
 	</section>
 	<section class="section-take-contact">
 		<div>
