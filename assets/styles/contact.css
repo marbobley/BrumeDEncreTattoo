@@ -18,13 +18,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:100px;
+    padding: 100px;
+}
+
+.leaflet-container {
+    width: 800px;
+    height: 500px;
+}
+
+.section-take-contact {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
 }
 
 
-.section-take-contact {
-    margin-top:100px;
-    margin-left: 2%;
-    margin-right: 200px;
-    font-size: 20px;
+@media screen and (max-width: 600px) {
+    .header-section-contact {
+        padding-top: 50px;
+    }
+
+    .leaflet-container {
+        width: 300px;
+        height: 500px;
+    }
+
+    .section-take-contact {
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
 }
