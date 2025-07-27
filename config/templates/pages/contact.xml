@@ -18,6 +18,7 @@
         <property name="title" type="text_line" mandatory="true">
             <meta>
                 <title lang="en">Title</title>
+                <title lang="fr">Title</title>
                 <title lang="de">Titel</title>
             </meta>
             <params>
@@ -30,16 +31,38 @@
         <property name="url" type="resource_locator" mandatory="true">
             <meta>
                 <title lang="en">Resourcelocator</title>
+                <title lang="fr">URL</title>
                 <title lang="de">Adresse</title>
             </meta>
 
             <tag name="sulu.rlp"/>
+        </property>
+        <property name="subtitle" type="text_line" mandatory="true">
+            <meta>
+                <title lang="en">Subtitle</title>
+                <title lang="fr">Sous titre</title>
+                <title lang="de">Subtitle</title>
+            </meta>
+        </property>
+        <property name="adresse" type="text_line" mandatory="true">
+            <meta>
+                <title lang="en">Adresse physique</title>
+                <title lang="fr">Adress</title>
+                <title lang="de">Adress</title>
+            </meta>
         </property>
 
         <property name="article" type="text_editor">
             <meta>
                 <title lang="en">Article</title>
                 <title lang="de">Artikel</title>
+            </meta>
+        </property>
+        <property name="takeContact" type="text_editor" mandatory="true">
+            <meta>
+                <title lang="en">PrendreContact</title>
+                <title lang="fr">TakeContact</title>
+                <title lang="de">TakeContact</title>
             </meta>
         </property>
     </properties>
