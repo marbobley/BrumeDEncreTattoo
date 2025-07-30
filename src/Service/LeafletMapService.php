@@ -7,6 +7,7 @@ use Symfony\UX\Map\Bridge\Leaflet\Option\AttributionControlOptions;
 use Symfony\UX\Map\Bridge\Leaflet\Option\ControlPosition;
 use Symfony\UX\Map\Bridge\Leaflet\Option\TileLayer;
 use Symfony\UX\Map\Bridge\Leaflet\Option\ZoomControlOptions;
+use Symfony\UX\Map\InfoWindow;
 use Symfony\UX\Map\Point;
 use Symfony\UX\Map\Map;
 use Symfony\UX\Map\Marker;
@@ -17,9 +18,14 @@ class LeafletMapService
     {
         $map = (new Map())
             ->center(new Point(43.685456548373686, 3.585066726137538))
+            // With an info window associated to the marker:
             ->addMarker(new Marker(
                 position: new Point(43.685456548373686, 3.585066726137538),
-                title: 'Aniane'
+                title: 'Aniane',
+                infoWindow: new InfoWindow(
+                    headerContent: '<b>Aniane</b>',
+                    content: 'Situé proche du pont du diable, le studio t\' ouvres les portes !'
+                ),
             ))
             ->zoom(10);
 
