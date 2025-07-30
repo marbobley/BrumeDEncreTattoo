@@ -49,4 +49,5 @@ return [
     Symfony\UX\TwigComponent\TwigComponentBundle::class => ['all' => true],
     Symfony\UX\StimulusBundle\StimulusBundle::class => ['all' => true],
     Symfony\UX\Map\UXMapBundle::class => ['all' => true],
+    Sulu\Bundle\FormBundle\SuluFormBundle::class => ['all' => true],
 ];
